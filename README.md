@@ -26,8 +26,8 @@ This project involves deploying a sentiment analysis model using AWS services (E
 ---
 ## **Link for the Model**
 
-Here is the link for the fine tuned model
--[Fine Tuned Sentiment Analysis BERT Model]
+Here is the link for the fine tuned model:
+- [Fine Tuned Sentiment Analysis BERT Model] 
 (https://huggingface.co/Praveen-R/Tweet_sentiment_analysis_with_BERT)
 
 ---
