@@ -1,7 +1,7 @@
 # **Sentiment Analysis Model - Deploy using AWS Services or Hugging Face**
 
 ## **Project Overview**
-The goal of this project is to deploy a machine learning or deep learning-based sentiment analysis model, utilizing AWS services to make it available as a web application. The application will enable users to input text and receive sentiment predictions on whether the sentiment is **Positive**, **Negative**, or **Neutral**. This project incorporates fine-tuned sentiment analysis models, AWS EC2, S3, RDS, and web deployment using Streamlit or Gradio.
+The goal of this project is to deploy a fine tuned sentiment analysis model, utilizing AWS services to make it available as a web application. The application will enable users to input text and receive sentiment predictions on whether the sentiment is **Positive**, **Negative**, or **Neutral**. This project incorporates fine-tuned sentiment analysis models, AWS EC2, S3, RDS, and web deployment using Streamlit.
 
 ---
 
@@ -20,7 +20,7 @@ The goal of this project is to deploy a machine learning or deep learning-based 
 
 ## **Project Description**
 
-This project involves deploying a sentiment analysis model using AWS services (EC2, S3, RDS) and a web application built with **Streamlit** or **Gradio**. The model classifies tweets as **Positive**, **Negative**, or **Neutral**, based on the sentiment expressed towards the specified entity.
+This project involves deploying a sentiment analysis model using AWS services (EC2, S3, RDS) and a web application built with **Streamlit**. The model classifies tweets as **Positive**, **Negative**, or **Neutral**, based on the sentiment expressed towards the specified entity.
 
 ---
 
@@ -53,7 +53,7 @@ The dataset used in this project is a **Twitter Sentiment Analysis** dataset. Th
 - Download the model and application files from **S3**.
 
 ### 4. **Application Deployment**
-- Run the **Streamlit** or **Gradio** application on the EC2 instance.
+- Run the **Streamlit** application on the EC2 instance.
 
 ### 5. **Database Setup**
 - Set up an **Amazon RDS** instance for storing user data (username, login time).
@@ -69,9 +69,9 @@ The dataset used in this project is a **Twitter Sentiment Analysis** dataset. Th
 ## **Technologies Used**
 - **Machine Learning / Deep Learning**: Hugging Face, Transformers, PyTorch/TensorFlow
 - **AWS Services**: EC2, S3, RDS
-- **Web Application**: Streamlit or Gradio
-- **Database**: Amazon RDS (PostgreSQL)
-- **Other Libraries**: Boto3, Transformers, Psycopg2, torch
+- **Web Application**: Streamlit
+- **Database**: Amazon RDS (MySQL)
+- **Other Libraries**: Boto3, Transformers, torch
 
 ---
 
@@ -86,7 +86,7 @@ The dataset used in this project is a **Twitter Sentiment Analysis** dataset. Th
 
 3. **Deploy the Web Application**:
    - Download the fine-tuned model and `app.py` from the S3 bucket.
-   - Run the **Streamlit** or **Gradio** application.
+   - Run the **Streamlit** application.
 
 4. **Set Up the Database**:
    - Create an RDS instance and configure PostgreSQL to store user information (username, login time).
@@ -123,11 +123,7 @@ The sentiment analysis model will be evaluated using the following metrics:
    - Python scripts and notebooks used for the model, app, and deployment.
 3. **Documentation**: 
    - A README file for setup, deployment, and usage instructions.
-   - SQL scripts for creating the RDS database schema.
 
 ---
 
-## **License**
-This project is licensed under the MIT License. See the LICENSE file for details.
 
----
