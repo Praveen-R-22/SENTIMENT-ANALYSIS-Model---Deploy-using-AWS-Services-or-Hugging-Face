@@ -7,6 +7,7 @@ The goal of this project is to deploy a fine tuned sentiment analysis model, uti
 
 ## **Table of Contents**
 - [Project Description](#project-description)
+- [Link for the Model](#link-for-the-model)
 - [Dataset](#dataset)
 - [Approach](#approach)
 - [Technologies Used](#technologies-used)
@@ -21,6 +22,13 @@ The goal of this project is to deploy a fine tuned sentiment analysis model, uti
 ## **Project Description**
 
 This project involves deploying a sentiment analysis model using AWS services (EC2, S3, RDS) and a web application built with **Streamlit**. The model classifies tweets as **Positive**, **Negative**, or **Neutral**, based on the sentiment expressed towards the specified entity.
+
+---
+## **Link for the Model**
+
+Here is the link for the fine tuned model
+-[Fine Tuned Sentiment Analysis BERT Model]
+(https://huggingface.co/Praveen-R/Tweet_sentiment_analysis_with_BERT)
 
 ---
 
